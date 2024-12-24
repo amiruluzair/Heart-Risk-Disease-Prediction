@@ -6,5 +6,5 @@ This project compares the performance of various machine learning classifiers in
 - Naive Bayes: Had the lowest accuracy at 0.709. While it performed relatively well for class 1.0, its lower recall for class 0.0 led to reduced overall accuracy.
 - Support Vector Machine (SVM): Achieved 0.839 accuracy with good recall for class 1.0, though slightly weaker for class 0.0 compared to KNN and Decision Tree.
 - XGBoost: Achieved the highest accuracy of 0.954, with very strong performance across both classes, especially for class 1.0. It is the best-performing model in terms of accuracy, precision, and recall.
-Summary : XGBoost is the best-performing model with the highest accuracy, followed by Decision Tree and KNN.
+- Summary : XGBoost is the best-performing model with the highest accuracy, followed by Decision Tree and KNN.
 Linear Regression and Naive Bayes performed weaker in comparison, especially in recall for class 0.0.
